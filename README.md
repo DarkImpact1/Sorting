@@ -1,2 +1,2 @@
-# Sorting
- every sorting algorithm in this repo
+# Sorting 
+ Every sorting algorithm in this repo
